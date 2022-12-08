@@ -9,7 +9,7 @@
 dronekit-pyhon が利用できる環境下にcloneしてください。
 
 ### 実行前に（設定）
-必要に応じ dk_homework.py　9行目（connect_msg）～　29行目（wait_time）までを環境に合わせて変更ください。
+必要に応じ dk_homework.py　10行目（connect_msg）～　30行目（wait_time）までを環境に合わせて変更ください。
 
 また、辞書型配列dict_positionの値に応じ　必要があれば targetDistance_mul、stop_groundspeed、stop_timeの値を変更ください。
 
