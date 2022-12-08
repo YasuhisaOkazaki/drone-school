@@ -11,7 +11,7 @@ connect_msg = 'tcp:127.0.0.1:5762'
 takeoff_alt = 10
 # ground speed (m/s)
 groundspeed = 5
-# 相対座標リスト (m)：前の座標（最初は離陸地点）からの相対
+# 相対座標リスト (m)：前の座標（最初は離陸地点）からの相対距離
 '''
 dict_position = {
     '1' : {'North': 80, 'East': -50},
