@@ -1,6 +1,7 @@
 from dronekit import connect, LocationGlobal, LocationGlobalRelative, VehicleMode
 import time
 import math
+import sys
 
 #------------------------
 # 設定（変数など）
@@ -153,6 +154,7 @@ try:
     vehicle.wait_simple_takeoff(takeoff_alt, timeout=20)
 except TimeoutError as takeoffError:
     print("Takeoff is timeout!!!")
+    sys.exit()
 
 # wait
 time.sleep(wait_time)
